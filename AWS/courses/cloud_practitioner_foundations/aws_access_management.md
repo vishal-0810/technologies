@@ -34,7 +34,7 @@
 
 ## Question walkthrough
 
-- Which of the following can limit Amazon Simple Storage Service (Amazon S3) bucket access to specific user?
+- Which of the following can limit Amazon Simple Storage Service (Amazon S3) bucket access to specific user? 
 
 A. Public & Private key pair
 
