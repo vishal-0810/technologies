@@ -9,6 +9,7 @@ from dsa.code.valid_palindrome import PalindromeChecker
     ("", True),
     ("0P", False),
     ("ab@a", True),
+    ("x", True),
 ])
 def test_is_palindrome(input_str, expected):
     checker = PalindromeChecker()
