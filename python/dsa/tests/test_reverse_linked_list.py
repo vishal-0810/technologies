@@ -4,6 +4,7 @@ class ListNode:
         self.value = value
         self.next = next
 
+
 import unittest
 
 from dsa.code.reverse_linked_list import ReverseLinkedList
@@ -48,7 +49,10 @@ class TestReverseLinkedList(unittest.TestCase):
         self.assertEqual(self.linked_list_to_list(result), [5, 4, 3, 2, 1])
 
 
-obj = TestReverseLinkedList()
+if __name__ == "__main__":
+    unittest.main()
+
+"""obj = TestReverseLinkedList()
 linked_list = obj.build_linked_list([9, 1, 5, 2, 3, 4, 5])
 print(linked_list.value)  # Output: 1
 print(linked_list.next.value)  # Output: 2
@@ -63,4 +67,4 @@ print(linked_list.next.next.next.value)  # Output: 4
 print(linked_list.next.next.next.next.value)  # Output: 5
 
 print(obj.linked_list_to_list(linked_list))  # Output: [1, 2, 3, 4, 5]
-print(linked_list)
+print(linked_list)"""
