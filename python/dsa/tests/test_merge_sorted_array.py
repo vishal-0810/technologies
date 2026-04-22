@@ -10,5 +10,5 @@ from dsa.code.merge_sorted_array import MergeSortedArray
 ])
 def test_merge_sorted_array(nums1: list, m: int, nums2: list, n: int, expected: list):
     merger = MergeSortedArray()
-    merger.merge(nums1, m, nums2, n)
-    assert nums1 == expected
+    result = merger.merge(nums1, m, nums2, n)
+    assert result == expected
